@@ -1,0 +1,158 @@
+{
+  "en": {
+    "name": "English",
+    "emoji": "🇬🇧",
+    "access": {
+      "guild": "The server was not found.",
+      "denied": "You do not have the permissions to perform this action.",
+      "notSubscribed": "You have not subscribed to the service, go to the server, you need more credits",
+      "wrongGuild": "This server is not the same as the one defined",
+      "catDeleted": "The category has been deleted.",
+      "catdontexist": "The category does not exist.",
+      "hasticket": "You already have an open ticket.",
+      "notRunner": "You are not a runner.",
+      "notSub": "You have not subscribed to the service."
+    },
+    "setup": {
+      "success": "Your server has been successfully configured."
+    },
+    "joinrunner": {
+      "tittle": "Creation of a new runner",
+      "description": "This is where it all starts, make your runner request here and check your services",
+      "button": {
+        "text": "Become a runner"
+      }
+    },
+    "cat": {
+      "maxCat": "You have reached the maximum number of categories."
+    },
+    "controlePannel": {
+      "embed": {
+        "tittle": "Control panel",
+        "status": "Status",
+        "langue": "Tongue",
+        "credit": "Credits",
+        "guild": "Server",
+        "runner": "Runners",
+        "categories": "Categories"
+      },
+      "components": {
+        "reset": "Reset",
+        "changeCredit": "Change the number of credits",
+        "placeHolder": "Choose another language",
+        "manageRunners": "Manage runners",
+        "deleteCategory": "Delete a category"
+      }
+    },
+    "manageRunners": {
+      "chooseRunner": "Choose the runner",
+      "placeHolder": "Choose an action",
+      "addingRunner": "Send the id of the runner you want to add.",
+      "addRunner": "Add a runner",
+      "delRunner": "Delete a runner",
+      "success": "The runner has been removed",
+      "notFound": "The runner was not found",
+      "added": "The runner has been added",
+      "alreadyAdded": "The runner is already in the list",
+      "maxRunners": "You have reached the maximum number of runners"
+    },
+    "createTickets": {
+      "tittle": "Create a ticket",
+      "description": "Press the button to create a ticket"
+    },
+    "profile": {
+      "titre": "Profile",
+      "description": "Please complete the form",
+      "firstname": "First name",
+      "name": "name",
+      "adress": "Address",
+      "city": "Ville",
+      "zipcode": "Code postal",
+      "country": "Pays",
+      "phone": "Phone number"
+    },
+    "button": {
+      "createTicket": "Create a ticket",
+      "getProfile": "Get profile",
+      "delete": "Close ticket"
+    },
+    "selection": {
+      "Profile": {
+        "placeHolder": "Choose a setting"
+      },
+      "bot": {
+        "placeHolder": "Selectionne ton bot"
+      },
+      "menu": {
+        "placeHolder": "Choose a language"
+      },
+      "cat": {
+        "placeHolder": "Choose category"
+      }
+    },
+    "edit": {
+      "param": "Change the parameter:",
+      "webhook": "Please send webhook link",
+      "getProfile": "How many profiles do you want to generate?",
+      "getAccounts": "Please send us the accounts used",
+      "sendProfiles": "Here are your profiles"
+    },
+    "guide": {
+      "description": "We present to you a new innovative service!\nTired of spending time generating profiles for your clients? ACO's Tool is the solution.\n\nYou will be able to let your customer fill out a form with their information in their ticket. To then generate a .json file with these. The tool will ask you how many profiles it should create with the given information, and will jig the addresses, first and last name. The webhook will also be automatically created, integrated, and set up in the ticket in question.",
+      "field1": {
+        "name": "Ticket management",
+        "value": "Simple ticketing"
+      },
+      "field2": {
+        "name": "Intuitive",
+        "value": "The customer enters his own information! you just have to import in your bot"
+      },
+      "field3": {
+        "name": "Faster",
+        "value": "Generate as many accounts as needed in two clicks, no more copy pasting!"
+      },
+      "field4": {
+        "name": "J1g",
+        "value": "Generation of profiles with name, surname and address j1g"
+      },
+      "field5": {
+        "name": "Webhook management",
+        "value": "Automatic integration of the webhook in the ticket, with the effigy of the member!"
+      },
+      "field6": {
+        "name": "Bot-friendly",
+        "value": "<:solet:965347018853711873>, <:panaio:965348954009128960>, <:natbot:966796334071955486>\nand many more under development"
+      },
+      "field7": {
+        "name": "Scalable",
+        "value": "We are attentive and responsive, share your ideas with us!"
+      },
+      "footer": "For 15 euros / month / runners"
+    },
+    "faq": {
+      "titre": "FAQ",
+      "description": "Here are the answers to your questions, if you need help, do not hesitate to contact us!",
+      "placeholder": "Choose a question",
+      "questions": {
+        "Comment devenir runner ?": {
+          "answer": "Go to the lounge <#963794793861886032> and click on the register button, a ticket will then be opened."
+        },
+        "Comment mettre en place le tool ?": {
+          "answer": "Once your license is activated, you just have to do the `?aco setup` command on your server."
+        },
+        "Comment générer des profils ?": {
+          "answer": "You just need to click on the `Get profile` button once the form is completed, the tool will send you the generated profile."
+        },
+        "Mon pays n'est pas le bon, comment le changer ?": {
+          "answer": "All you have to do is change your country in the form, respecting the format requested by your bot. (ex: FR / France, ...)"
+        },
+        "Comment changer le webhook ?": {
+          "answer": "Just type the command `?aco ticket setwebhook` in the ticket, and send the link to the new webhook\nOnly needed if you want to use a different webhook than the automatically generated one."
+        },
+        "Comment reposter le message pour créer des tickets ?": {
+          "answer": "You just have to type the command `?aco ticket create` the tool will post the message."
+        }
+      }
+    }
+  }
+}
