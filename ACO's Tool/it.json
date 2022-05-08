@@ -1,160 +1,4 @@
 {
-  "fr": {
-    "name": "Francese",
-    "emoji": "🇫🇷",
-    "access": {
-      "guild": "Il server non è stato trovato.",
-      "denied": "Non hai le autorizzazioni per eseguire questa azione.",
-      "notSubscribed": "Non sei iscritto al servizio, vai al server, hai bisogno di più crediti",
-      "wrongGuild": "Questo server non è lo stesso di quello definito",
-      "catDeleted": "La categoria è stata eliminata.",
-      "catdontexist": "La categoria non esiste.",
-      "hasticket": "Hai già un biglietto aperto.",
-      "notRunner": "Non sei un corridore.",
-      "notSub": "Non sei iscritto al servizio."
-    },
-    "setup": {
-      "success": "Il tuo server è stato configurato correttamente."
-    },
-    "joinrunner": {
-      "tittle": "Creazione di un nuovo corridore",
-      "description": "Qui è dove tutto inizia, fai la tua richiesta di corridore qui e controlla i tuoi servizi",
-      "button": {
-        "text": "Diventa un corridore"
-      }
-    },
-    "cat": {
-      "maxCat": "Hai raggiunto il numero massimo di categorie."
-    },
-    "controlePannel": {
-      "embed": {
-        "tittle": "Pannello di controllo",
-        "status": "Stato",
-        "langue": "Lingua",
-        "credit": "Crediti",
-        "guild": "Cameriere",
-        "runner": "Corridori",
-        "categories": "Categorie"
-      },
-      "components": {
-        "reset": "Ripristina",
-        "changeCredit": "Modifica il numero di crediti",
-        "placeHolder": "Scegli un'altra lingua",
-        "manageRunners": "Gestisci i corridori",
-        "deleteCategory": "Elimina una categoria"
-      }
-    },
-    "manageRunners": {
-      "chooseRunner": "Scegli il corridore",
-      "placeHolder": "Scegli un'azione",
-      "addingRunner": "Invia l'id del corridore che vuoi aggiungere.",
-      "addRunner": "Aggiungi un corridore",
-      "delRunner": "Elimina un corridore",
-      "success": "Il corridore è stato rimosso",
-      "notFound": "Il corridore non è stato trovato",
-      "added": "Il corridore è stato aggiunto",
-      "alreadyAdded": "Il corridore è già nell'elenco",
-      "maxRunners": "Hai raggiunto il numero massimo di corridori"
-    },
-    "createTickets": {
-      "tittle": "Crea un biglietto",
-      "description": "Premi il pulsante per creare un biglietto"
-    },
-    "profile": {
-      "titre": "Profilo",
-      "description": "Si prega di compilare il modulo",
-      "firstname": "Nome",
-      "name": "Nome",
-      "adress": "Indirizzo",
-      "city": "Ville",
-      "zipcode": "Cap",
-      "country": "Paga",
-      "phone": "Numero di telefono"
-    },
-    "button": {
-      "createTicket": "Crea un biglietto",
-      "getProfile": "Ottieni profilo",
-      "delete": "Chiudere il biglietto"
-    },
-    "selection": {
-      "Profile": {
-        "placeHolder": "Scegli un'impostazione"
-      },
-      "bot": {
-        "placeHolder": "Selectionne ton bot"
-      },
-      "menu": {
-        "placeHolder": "Scegli una lingua"
-      },
-      "cat": {
-        "placeHolder": "Scegli la categoria"
-      }
-    },
-    "edit": {
-      "param": "Modifica il parametro:",
-      "webhook": "Si prega di inviare il collegamento al webhook",
-      "getProfile": "Quanti profili vuoi generare?",
-      "getAccounts": "Inviaci gli account utilizzati",
-      "sendProfiles": "Ecco i tuoi profili"
-    },
-    "guide": {
-      "description": "Ti presentiamo un nuovo servizio innovativo!\nStanco di perdere tempo a generare profili per i tuoi clienti? Lo strumento di ACO è la soluzione.\n\nPotrai consentire al tuo cliente di compilare un modulo con le sue informazioni nel suo biglietto. Per quindi generare un file .json con questi. Lo strumento ti chiederà quanti profili dovrebbe creare con le informazioni fornite e creerà indirizzi, nome e cognome. Il webhook verrà inoltre creato, integrato e configurato automaticamente nel ticket in questione.",
-      "field1": {
-        "name": "Gestione dei biglietti",
-        "value": "Biglietteria semplice"
-      },
-      "field2": {
-        "name": "Intuitivo",
-        "value": "Il cliente inserisce le proprie informazioni! devi solo importare nel tuo bot"
-      },
-      "field3": {
-        "name": "Più veloce",
-        "value": "Genera tutti gli account necessari in due clic, niente più copia incolla!"
-      },
-      "field4": {
-        "name": "J1g",
-        "value": "Generazione di profili con nome, cognome e indirizzo j1g"
-      },
-      "field5": {
-        "name": "Gestione webhook",
-        "value": "Integrazione automatica del webhook nel ticket, con l'effigie del membro!"
-      },
-      "field6": {
-        "name": "Adatto ai bot",
-        "value": "<:solet:965347018853711873>, <:panaio:965348954009128960>, <:natbot:966796334071955486>\ne molti altri in fase di sviluppo"
-      },
-      "field7": {
-        "name": "scalabile",
-        "value": "Siamo attenti e reattivi, condividi le tue idee con noi!"
-      },
-      "footer": "Per 15 euro / mese / corridori"
-    },
-    "faq": {
-      "titre": "FAQ",
-      "description": "Ecco le risposte alle tue domande, se hai bisogno di aiuto non esitare a contattarci!",
-      "placeholder": "Scegli una domanda",
-      "questions": {
-        "Comment devenir runner ?": {
-          "answer": "Vai alla lounge <#963794793861886032> e clicca sul pulsante di registrazione, verrà quindi aperto un ticket."
-        },
-        "Comment mettre en place le tool ?": {
-          "answer": "Una volta che la tua licenza è stata attivata, devi solo eseguire il comando `?aco setup` sul tuo server."
-        },
-        "Comment générer des profils ?": {
-          "answer": "Devi solo fare clic sul pulsante \"Ottieni profilo\" una volta completato il modulo, lo strumento ti invierà il profilo generato."
-        },
-        "Mon pays n'est pas le bon, comment le changer ?": {
-          "answer": "Tutto quello che devi fare è cambiare il tuo Paese nel form, rispettando il formato richiesto dal tuo bot. (es: FR / Francia, ...)"
-        },
-        "Comment changer le webhook ?": {
-          "answer": "Basta digitare il comando `?aco ticket setwebhook` nel ticket e inviare il collegamento al nuovo webhook\nNecessario solo se desideri utilizzare un webhook diverso da quello generato automaticamente."
-        },
-        "Comment reposter le message pour créer des tickets ?": {
-          "answer": "Devi solo digitare il comando `?aco ticket create` lo strumento invierà il messaggio."
-        }
-      }
-    }
-  },
   "it": {
     "name": "Italian",
     "emoji": "🇮🇹",
@@ -254,6 +98,7 @@
       "sendProfiles": "Ecco i tuoi profili"
     },
     "guide": {
+      "support": "Server di supporto",
       "description": "Ti presentiamo un nuovo servizio innovativo!\nStanco di perdere tempo a generare profili per i tuoi clienti? Lo strumento di ACO è la soluzione.\n\nPotrai consentire al tuo cliente di compilare un modulo con le sue informazioni nel suo biglietto. Per quindi generare un file .json con questi. Lo strumento ti chiederà quanti profili dovrebbe creare con le informazioni fornite e creerà indirizzi, nome e cognome. Il webhook verrà inoltre creato, integrato e configurato automaticamente nel ticket in questione.",
       "field1": {
         "name": "Gestione dei biglietti",
@@ -283,7 +128,7 @@
         "name": "scalabile",
         "value": "Siamo attenti e reattivi, condividi le tue idee con noi!"
       },
-      "footer": "Per 15 euro / mese / corridori"
+      "footer": "Per 15 euro/mese/server per due crediti"
     },
     "faq": {
       "titre": "FAQ",

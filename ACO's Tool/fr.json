@@ -11,7 +11,7 @@
             "catdontexist": "La catégorie n'existe pas.",
             "hasticket": "Vous avez déjà un ticket ouvert.",
             "notRunner": "Vous n'êtes pas un runner.",
-            "notSub":"Vous n'avez pas souscrit au service."
+            "notSub": "Vous n'avez pas souscrit au service."
         },
         "setup": {
             "success": "Votre serveur a été configuré avec succès."
@@ -98,6 +98,7 @@
             "sendProfiles": "Voilà vos profils"
         },
         "guide": {
+            "support": "Serveur de support",
             "description": "Nous vous présentons un nouveau service innovant !\nRas le bol de passer du temps à générer des profils pour vos clients ? ACO's Tool est la solution.\n\nVous allez pouvoir laisser votre client remplir un formulaire avec ses informations dans son ticket. Pour ensuite générer un fichier .json avec ces dernières. Le tool vous demandera combien de profils il doit créer avec les informations données, et effectuera un jig sur les adresses, nom et prénom. Le webhook sera aussi automatiquement créée, intégré, et mis en place dans le ticket en question.",
             "field1": {
                 "name": "Gestion des tickets",
@@ -127,7 +128,7 @@
                 "name": "Evolutif",
                 "value": "Nous sommes à l'écoute et réactif, partagez-nous  vos idées !"
             },
-            "footer": "Moyennant 15 euros / mois / runners"
+            "footer": "Moyennant 15 euros / mois / serveur pour deux crédits"
         },
         "faq": {
             "titre": "FAQ",
@@ -152,7 +153,6 @@
                 "Comment reposter le message pour créer des tickets ?": {
                     "answer": "Il vous suffit de taper la commande `?aco ticket create` le tool postera le message."
                 }
-                
             }
         }
     }

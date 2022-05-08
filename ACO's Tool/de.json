@@ -73,7 +73,7 @@
     },
     "button": {
       "createTicket": "Ticket erstellen",
-      "getProfile": "Profil abrufen",
+      "getProfile": "Profil erhalten",
       "delete": "Ticket schließen"
     },
     "selection": {
@@ -98,7 +98,8 @@
       "sendProfiles": "Hier sind Ihre Profile"
     },
     "guide": {
-      "description": "Wir präsentieren Ihnen einen neuen innovativen Service!\nSind Sie es leid, Zeit damit zu verbringen, Profile für Ihre Kunden zu erstellen? ACOs Tool ist die Lösung.\n\nSie können Ihren Kunden ein Formular mit seinen Informationen in seinem Ticket ausfüllen lassen. Um dann mit diesen eine .json-Datei zu generieren. Das Tool fragt Sie, wie viele Profile es mit den angegebenen Informationen erstellen muss, und ermittelt die Adressen, Vor- und Nachnamen. Der Webhook wird ebenfalls automatisch erstellt, eingebunden und im jeweiligen Ticket eingerichtet.",
+      "support": "Support-Server",
+      "description": "Wir präsentieren Ihnen einen neuen innovativen Service!\nSind Sie es leid, Zeit damit zu verbringen, Profile für Ihre Kunden zu erstellen? ACOs Tool ist die Lösung.\n\nSie können Ihren Kunden ein Formular mit seinen Informationen in seinem Ticket ausfüllen lassen. Um dann mit diesen eine .json-Datei zu generieren. Das Tool fragt Sie, wie viele Profile es mit den angegebenen Informationen erstellen soll, und berechnet die Adressen, Vor- und Nachnamen. Der Webhook wird ebenfalls automatisch erstellt, eingebunden und im jeweiligen Ticket eingerichtet.",
       "field1": {
         "name": "Ticketverwaltung",
         "value": "Einfaches Ticketing"
@@ -127,7 +128,7 @@
         "name": "Skalierbar",
         "value": "Wir sind aufmerksam und reaktionsschnell, teilen Sie uns Ihre Ideen mit!"
       },
-      "footer": "Für 15 Euro/Monat/Läufer"
+      "footer": "Für 15 Euro/Monat/Server für zwei Credits"
     },
     "faq": {
       "titre": "FAQ",
@@ -135,7 +136,7 @@
       "placeholder": "Wähle eine frage",
       "questions": {
         "Comment devenir runner ?": {
-          "answer": "Gehen Sie in die Lounge <#963794793861886032> und klicken Sie auf den Registrieren-Button, ein Ticket wird dann geöffnet."
+          "answer": "Gehen Sie in die Lounge <#963794793861886032> und klicken Sie auf den Registrieren-Button, dann wird ein Ticket eröffnet."
         },
         "Comment mettre en place le tool ?": {
           "answer": "Sobald Ihre Lizenz aktiviert ist, müssen Sie nur noch den Befehl „?aco setup“ auf Ihrem Server ausführen."
