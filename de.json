@@ -10,17 +10,17 @@
       "catDeleted": "Die Kategorie wurde gelöscht.",
       "catdontexist": "Die Kategorie existiert nicht.",
       "hasticket": "Sie haben bereits ein offenes Ticket.",
-      "notRunner": "Du bist kein Läufer.",
+      "notRunner": "Kein Abonnent.",
       "notSub": "Sie haben den Dienst nicht abonniert."
     },
     "setup": {
       "success": "Ihr Server wurde erfolgreich konfiguriert."
     },
     "joinrunner": {
-      "tittle": "Erstellen eines neuen Läufers",
-      "description": "Hier fängt alles an, stellen Sie hier Ihre Läuferanfrage und überprüfen Sie Ihre Leistungen",
+      "tittle": "Abonnieren Sie das Tool",
+      "description": "Hier fängt alles an, stellen Sie Ihre Anfrage und prüfen Sie Ihre Leistungen",
       "button": {
-        "text": "Werde Läufer"
+        "text": "Abonnieren"
       }
     },
     "cat": {
@@ -63,13 +63,13 @@
     "profile": {
       "titre": "Profil",
       "description": "Bitte füllen Sie das Formular aus",
-      "firstname": "Vorname",
-      "name": "Name",
-      "adress": "Die Anschrift",
-      "city": "Ville",
-      "zipcode": "Code postalisch",
-      "country": "Zahlt",
-      "phone": "Telefonnummer"
+      "firstname": "Vorname:",
+      "name": "Familien-oder Nachname:",
+      "adress": "Die Anschrift:",
+      "city": "Stadt:",
+      "zipcode": "Postleitzahl:",
+      "country": "Zahlt:",
+      "phone": "Telefonnummer:"
     },
     "button": {
       "createTicket": "Ticket erstellen",
@@ -78,7 +78,7 @@
     },
     "selection": {
       "Profile": {
-        "placeHolder": "Wählen Sie eine Einstellung"
+        "placeHolder": "Ändern Sie Ihre Informationen"
       },
       "bot": {
         "placeHolder": "Selectionne to bot"
@@ -91,7 +91,16 @@
       }
     },
     "edit": {
-      "param": "Parameter ändern:",
+      "param": "Ändere dein",
+      "params": {
+        "first_name": "Vorname:",
+        "last_name": "Name:",
+        "address": "Die Anschrift:",
+        "country": "Zahlt",
+        "city": "Stadt:",
+        "zip": "Postleitzahl:",
+        "phone_number": "Telefonnummer:"
+      },
       "webhook": "Bitte senden Sie den Webhook-Link",
       "getProfile": "Wie viele Profile möchten Sie erstellen?",
       "getAccounts": "Bitte senden Sie uns die verwendeten Accounts zu",
@@ -99,7 +108,7 @@
     },
     "guide": {
       "support": "Support-Server",
-      "description": "Wir präsentieren Ihnen einen neuen innovativen Service!\nSind Sie es leid, Zeit damit zu verbringen, Profile für Ihre Kunden zu erstellen? ACOs Tool ist die Lösung.\n\nSie können Ihren Kunden ein Formular mit seinen Informationen in seinem Ticket ausfüllen lassen. Um dann mit diesen eine .json-Datei zu generieren. Das Tool fragt Sie, wie viele Profile es mit den angegebenen Informationen erstellen soll, und berechnet die Adressen, Vor- und Nachnamen. Der Webhook wird ebenfalls automatisch erstellt, eingebunden und im jeweiligen Ticket eingerichtet.",
+      "description": "Wir präsentieren Ihnen einen neuen innovativen Service! Sind Sie es leid, Zeit damit zu verbringen, Profile für Ihre Kunden zu erstellen? ACOs Tool ist die Lösung. Sie können Ihren Kunden ein Formular mit seinen Informationen in seinem Ticket ausfüllen lassen. Um dann mit diesen eine .json-Datei zu generieren. Das Tool fragt Sie, wie viele Profile es mit den angegebenen Informationen erstellen soll, und berechnet die Adressen, Vor- und Nachnamen. Der Webhook wird ebenfalls automatisch erstellt, eingebunden und im jeweiligen Ticket eingerichtet.",
       "field1": {
         "name": "Ticketverwaltung",
         "value": "Einfaches Ticketing"
@@ -122,38 +131,58 @@
       },
       "field6": {
         "name": "Bot-freundlich",
-        "value": "<:solet:965347018853711873>, <:panaio:965348954009128960>, <:natbot:966796334071955486>\nund viele weitere in der Entwicklung"
+        "value": "<:solet:965347018853711873>, <:panaio:965348954009128960>, <:natbot:966796334071955486> und viele weitere in Entwicklung"
       },
       "field7": {
         "name": "Skalierbar",
         "value": "Wir sind aufmerksam und reaktionsschnell, teilen Sie uns Ihre Ideen mit!"
       },
-      "footer": "Für 15 Euro/Monat/Server für zwei Credits"
+      "field8": {
+        "name": "Preisgestaltung",
+        "value": "Das Abonnement beträgt 15 € pro Monat / Server für 2 Credits. Sie können eine Kategorie erstellen und einen Läufer / Credits haben. Das bedeutet, dass Sie mit 3 Credits maximal 3 Läufer sowie 3 Kategorien haben können. Jeder Credit kostet zusätzlich 5 Euro pro Monat"
+      },
+      "footer": "Für 15 Euro / Monat / Server für 2 Credits"
     },
     "faq": {
       "titre": "FAQ",
       "description": "Hier sind die Antworten auf Ihre Fragen. Wenn Sie Hilfe benötigen, zögern Sie nicht, uns zu kontaktieren!",
       "placeholder": "Wähle eine frage",
       "questions": {
-        "Comment devenir runner ?": {
+        "0": {
+          "name": "Wie abonniere ich?",
           "answer": "Gehen Sie in die Lounge <#963794793861886032> und klicken Sie auf den Registrieren-Button, dann wird ein Ticket eröffnet."
         },
-        "Comment mettre en place le tool ?": {
+        "1": {
+          "name": "Wie richte ich das Tool ein?",
           "answer": "Sobald Ihre Lizenz aktiviert ist, müssen Sie nur noch den Befehl „?aco setup“ auf Ihrem Server ausführen."
         },
-        "Comment générer des profils ?": {
+        "2": {
+          "name": "Wie erstellt man Profile?",
           "answer": "Sie müssen nur auf die Schaltfläche \"Profil abrufen\" klicken, sobald das Formular ausgefüllt ist, und das Tool sendet Ihnen das generierte Profil."
         },
-        "Mon pays n'est pas le bon, comment le changer ?": {
+        "3": {
+          "name": "Mein Land ist nicht das richtige, wie kann ich es ändern?",
           "answer": "Alles, was Sie tun müssen, ist, Ihr Land im Formular zu ändern und das von Ihrem Bot angeforderte Format einzuhalten. (zB: FR / Frankreich, ...)"
         },
-        "Comment changer le webhook ?": {
-          "answer": "Geben Sie einfach den Befehl `?aco ticket setwebhook` in das Ticket ein und senden Sie den Link zum neuen Webhook\nNur erforderlich, wenn Sie einen anderen Webhook als den automatisch generierten verwenden möchten."
+        "4": {
+          "name": "Wie ändere ich den Webhook?",
+          "answer": "Geben Sie einfach den Befehl „?aco ticket setwebhook“ in das Ticket ein und senden Sie den Link zum neuen Webhook. Wird nur benötigt, wenn Sie einen anderen Webhook als den automatisch generierten verwenden möchten."
         },
-        "Comment reposter le message pour créer des tickets ?": {
+        "5": {
+          "name": "Wie poste ich die Nachricht erneut, um Tickets zu erstellen?",
           "answer": "Sie müssen nur den Befehl „?aco ticket create“ eingeben, das Tool wird die Nachricht veröffentlichen."
         }
       }
+    },
+    "setupGuide": {
+      "titre": "Einrichtungsanleitung",
+      "field1": "Fügen Sie den Bot zu Ihrem Server hinzu, klicken Sie auf das Bot-Profil.",
+      "field2": "Geben Sie auf Ihrem Server den Befehl „?aco setup“ ein. *Es lässt den Bot wissen, welchen Server er sich ansehen soll*",
+      "field3": "Drücken Sie die 🔄-Taste, um Ihr Profil zu aktualisieren.",
+      "field4": "Fügen Sie die Läufer hinzu, Sie müssen auf die Schaltfläche „Läufer verwalten“ klicken und die ID des Läufers eingeben. [Wie finde ich die ID?](https://www.youtube.com/watch?v=VTgVsQ0gwKM)",
+      "field5": "Erstellen Sie eine Kategorie mit dem Befehl „?aco cat create“.",
+      "field6": "Nutzen Sie das Tool",
+      "field7": "Andere Befehle: „?aco ticket create“, um die Nachricht zum Erstellen eines Tickets zu senden „?aco ticket setwebhook“, um einen weiteren Webhook festzulegen „?aco ticket getwebhook“, um den Webhook abzurufen"
     }
   }
 }

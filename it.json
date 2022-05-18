@@ -1,6 +1,6 @@
 {
   "it": {
-    "name": "Italian",
+    "name": "Italiano",
     "emoji": "🇮🇹",
     "access": {
       "guild": "Il server non è stato trovato.",
@@ -10,17 +10,17 @@
       "catDeleted": "La categoria è stata eliminata.",
       "catdontexist": "La categoria non esiste.",
       "hasticket": "Hai già un biglietto aperto.",
-      "notRunner": "Non sei un corridore.",
+      "notRunner": "Non un abbonato.",
       "notSub": "Non sei iscritto al servizio."
     },
     "setup": {
       "success": "Il tuo server è stato configurato correttamente."
     },
     "joinrunner": {
-      "tittle": "Creazione di un nuovo corridore",
-      "description": "Qui è dove tutto inizia, fai la tua richiesta di corridore qui e controlla i tuoi servizi",
+      "tittle": "Iscriviti allo strumento",
+      "description": "Qui è dove tutto inizia, fai la tua richiesta e controlla i tuoi servizi",
       "button": {
-        "text": "Diventa un corridore"
+        "text": "sottoscrivi"
       }
     },
     "cat": {
@@ -63,13 +63,13 @@
     "profile": {
       "titre": "Profilo",
       "description": "Si prega di compilare il modulo",
-      "firstname": "Nome",
-      "name": "Nome",
-      "adress": "Indirizzo",
-      "city": "Ville",
-      "zipcode": "Cap",
-      "country": "Paga",
-      "phone": "Numero di telefono"
+      "firstname": "Nome:",
+      "name": "Cognome:",
+      "adress": "Indirizzo:",
+      "city": "Città:",
+      "zipcode": "Cap:",
+      "country": "Paga:",
+      "phone": "Numero di telefono:"
     },
     "button": {
       "createTicket": "Crea un biglietto",
@@ -78,7 +78,7 @@
     },
     "selection": {
       "Profile": {
-        "placeHolder": "Scegli un'impostazione"
+        "placeHolder": "Modifica le tue informazioni"
       },
       "bot": {
         "placeHolder": "Selectionne ton bot"
@@ -91,7 +91,16 @@
       }
     },
     "edit": {
-      "param": "Modifica il parametro:",
+      "param": "Cambia il tuo",
+      "params": {
+        "first_name": "Nome:",
+        "last_name": "Nome:",
+        "address": "Indirizzo:",
+        "country": "Paga",
+        "city": "Città:",
+        "zip": "Cap:",
+        "phone_number": "Numero di telefono:"
+      },
       "webhook": "Si prega di inviare il collegamento al webhook",
       "getProfile": "Quanti profili vuoi generare?",
       "getAccounts": "Inviaci gli account utilizzati",
@@ -99,7 +108,7 @@
     },
     "guide": {
       "support": "Server di supporto",
-      "description": "Ti presentiamo un nuovo servizio innovativo!\nStanco di perdere tempo a generare profili per i tuoi clienti? Lo strumento di ACO è la soluzione.\n\nPotrai consentire al tuo cliente di compilare un modulo con le sue informazioni nel suo biglietto. Per quindi generare un file .json con questi. Lo strumento ti chiederà quanti profili dovrebbe creare con le informazioni fornite e creerà indirizzi, nome e cognome. Il webhook verrà inoltre creato, integrato e configurato automaticamente nel ticket in questione.",
+      "description": "Ti presentiamo un nuovo servizio innovativo! Stanco di perdere tempo a generare profili per i tuoi clienti? Lo strumento di ACO è la soluzione. Potrai consentire al tuo cliente di compilare un modulo con le sue informazioni nel suo biglietto. Per quindi generare un file .json con questi. Lo strumento ti chiederà quanti profili dovrebbe creare con le informazioni fornite e creerà indirizzi, nome e cognome. Il webhook verrà inoltre creato, integrato e configurato automaticamente nel ticket in questione.",
       "field1": {
         "name": "Gestione dei biglietti",
         "value": "Biglietteria semplice"
@@ -122,38 +131,58 @@
       },
       "field6": {
         "name": "Adatto ai bot",
-        "value": "<:solet:965347018853711873>, <:panaio:965348954009128960>, <:natbot:966796334071955486>\ne molti altri in fase di sviluppo"
+        "value": "<:solet:965347018853711873>, <:panaio:965348954009128960>, <:natbot:966796334071955486> e molti altri in fase di sviluppo"
       },
       "field7": {
         "name": "scalabile",
         "value": "Siamo attenti e reattivi, condividi le tue idee con noi!"
       },
-      "footer": "Per 15 euro/mese/server per due crediti"
+      "field8": {
+        "name": "Prezzo",
+        "value": "L'abbonamento è di 15 € al mese / server per 2 crediti Puoi creare una categoria e avere un corridore / crediti Ciò significa che con 3 crediti puoi avere 3 corridori oltre a 3 categorie al massimo Ogni credito costa 5 euro in più al mese"
+      },
+      "footer": "Per 15 euro/mese/server per 2 crediti"
     },
     "faq": {
       "titre": "FAQ",
       "description": "Ecco le risposte alle tue domande, se hai bisogno di aiuto non esitare a contattarci!",
       "placeholder": "Scegli una domanda",
       "questions": {
-        "Comment devenir runner ?": {
-          "answer": "Vai alla lounge <#963794793861886032> e clicca sul pulsante registrati, verrà quindi aperto un ticket."
+        "0": {
+          "name": "Come iscriversi?",
+          "answer": "Vai alla lounge <#963794793861886032> e clicca sul pulsante di registrazione, verrà quindi aperto un ticket."
         },
-        "Comment mettre en place le tool ?": {
+        "1": {
+          "name": "Come impostare lo strumento?",
           "answer": "Una volta che la tua licenza è stata attivata, devi solo eseguire il comando `?aco setup` sul tuo server."
         },
-        "Comment générer des profils ?": {
+        "2": {
+          "name": "Come generare profili?",
           "answer": "Devi solo fare clic sul pulsante \"Ottieni profilo\" una volta completato il modulo, lo strumento ti invierà il profilo generato."
         },
-        "Mon pays n'est pas le bon, comment le changer ?": {
-          "answer": "Tutto quello che devi fare è cambiare il tuo paese nel modulo, rispettando il formato richiesto dal tuo bot. (es: FR / Francia, ...)"
+        "3": {
+          "name": "Il mio paese non è quello corretto, come posso cambiarlo?",
+          "answer": "Tutto quello che devi fare è cambiare il tuo Paese nel form, rispettando il formato richiesto dal tuo bot. (es: FR / Francia, ...)"
         },
-        "Comment changer le webhook ?": {
-          "answer": "Basta digitare il comando `?aco ticket setwebhook` nel ticket e inviare il collegamento al nuovo webhook\nNecessario solo se desideri utilizzare un webhook diverso da quello generato automaticamente."
+        "4": {
+          "name": "Come cambiare il webhook?",
+          "answer": "Basta digitare il comando `?aco ticket setwebhook` nel ticket e inviare il collegamento al nuovo webhook Necessario solo se si desidera utilizzare un webhook diverso da quello generato automaticamente."
         },
-        "Comment reposter le message pour créer des tickets ?": {
+        "5": {
+          "name": "Come ripubblicare il messaggio per creare i biglietti?",
           "answer": "Devi solo digitare il comando `?aco ticket create` lo strumento invierà il messaggio."
         }
       }
+    },
+    "setupGuide": {
+      "titre": "Guida alla configurazione",
+      "field1": "Aggiungi il bot al tuo server, fai clic sul profilo del bot.",
+      "field2": "Digita il comando `?aco setup` sul tuo server. *Fa sapere al bot quale server guardare*",
+      "field3": "Premi il pulsante 🔄 per aggiornare il tuo profilo.",
+      "field4": "Aggiungi i corridori, devi fare clic sul pulsante \"Gestisci corridori\" e fornire l'ID del corridore. [Come trovare l'ID?](https://www.youtube.com/watch?v=VTgVsQ0gwKM)",
+      "field5": "Crea una categoria con il comando `?aco cat create`.",
+      "field6": "Approfitta dello strumento",
+      "field7": "Altri comandi: `?aco ticket create` per inviare il messaggio per creare un ticket `?aco ticket setwebhook` per impostare un altro webhook `?aco ticket getwebhook` per recuperare il webhook"
     }
   }
 }
