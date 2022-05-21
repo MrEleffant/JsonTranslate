@@ -65,6 +65,7 @@
       "description": "Por favor complete el formulario",
       "firstname": "Nombre de pila:",
       "name": "Apellido:",
+      "nbradress": "Número de calle:",
       "adress": "Dirección:",
       "city": "Ciudad:",
       "zipcode": "Código postal:",
@@ -91,12 +92,20 @@
       }
     },
     "edit": {
+      "button": {
+        "title": "Editar post",
+        "titre": "Edite el título:",
+        "desc": "Edita la descripción:",
+        "img": "Cambiar la imagen (url, https o http)",
+        "button": "Editar contenido del botón"
+      },
       "param": "Cambia tu",
       "params": {
         "first_name": "Nombre de pila:",
         "last_name": "Apellido:",
+        "nbradress": "Número de calle:",
         "address": "Dirección:",
-        "country": "paga",
+        "country": "paga:",
         "city": "Ciudad:",
         "zip": "Código postal:",
         "phone_number": "Número de teléfono:"

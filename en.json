@@ -65,6 +65,7 @@
       "description": "Please complete the form",
       "firstname": "First name:",
       "name": "Surname:",
+      "nbradress": "Street number:",
       "adress": "Address:",
       "city": "City:",
       "zipcode": "Code postal:",
@@ -91,12 +92,20 @@
       }
     },
     "edit": {
+      "button": {
+        "title": "Edit post",
+        "titre": "Edit the title:",
+        "desc": "Edit the description:",
+        "img": "Change the image (url, https or http)",
+        "button": "Edit button content"
+      },
       "param": "Change your",
       "params": {
         "first_name": "First name:",
         "last_name": "Name:",
+        "nbradress": "Street number:",
         "address": "Address:",
-        "country": "Pays",
+        "country": "Pays:",
         "city": "City:",
         "zip": "Code postal:",
         "phone_number": "Phone number:"

@@ -65,6 +65,7 @@
       "description": "Si prega di compilare il modulo",
       "firstname": "Nome:",
       "name": "Cognome:",
+      "nbradress": "Numero civico:",
       "adress": "Indirizzo:",
       "city": "Città:",
       "zipcode": "Cap:",
@@ -91,12 +92,20 @@
       }
     },
     "edit": {
+      "button": {
+        "title": "Modifica post",
+        "titre": "Modifica il titolo:",
+        "desc": "Modifica la descrizione:",
+        "img": "Modifica l'immagine (url, https o http)",
+        "button": "Modifica contenuto pulsante"
+      },
       "param": "Cambia il tuo",
       "params": {
         "first_name": "Nome:",
         "last_name": "Nome:",
+        "nbradress": "Numero civico:",
         "address": "Indirizzo:",
-        "country": "Paga",
+        "country": "Paga:",
         "city": "Città:",
         "zip": "Cap:",
         "phone_number": "Numero di telefono:"
@@ -175,7 +184,7 @@
       }
     },
     "setupGuide": {
-      "titre": "Guida alla configurazione",
+      "titre": "Guida all'installazione",
       "field1": "Aggiungi il bot al tuo server, fai clic sul profilo del bot.",
       "field2": "Digita il comando `?aco setup` sul tuo server. *Fa sapere al bot quale server guardare*",
       "field3": "Premi il pulsante 🔄 per aggiornare il tuo profilo.",

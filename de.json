@@ -65,6 +65,7 @@
       "description": "Bitte füllen Sie das Formular aus",
       "firstname": "Vorname:",
       "name": "Familien-oder Nachname:",
+      "nbradress": "Hausnummer:",
       "adress": "Die Anschrift:",
       "city": "Stadt:",
       "zipcode": "Postleitzahl:",
@@ -91,12 +92,20 @@
       }
     },
     "edit": {
+      "button": {
+        "title": "Beitrag bearbeiten",
+        "titre": "Bearbeiten Sie den Titel:",
+        "desc": "Bearbeiten Sie die Beschreibung:",
+        "img": "Bild ändern (URL, https oder http)",
+        "button": "Schaltflächeninhalt bearbeiten"
+      },
       "param": "Ändere dein",
       "params": {
         "first_name": "Vorname:",
         "last_name": "Name:",
+        "nbradress": "Hausnummer:",
         "address": "Die Anschrift:",
-        "country": "Zahlt",
+        "country": "Zahlt:",
         "city": "Stadt:",
         "zip": "Postleitzahl:",
         "phone_number": "Telefonnummer:"
@@ -150,7 +159,7 @@
       "questions": {
         "0": {
           "name": "Wie abonniere ich?",
-          "answer": "Gehen Sie in die Lounge <#963794793861886032> und klicken Sie auf den Registrieren-Button, dann wird ein Ticket eröffnet."
+          "answer": "Gehen Sie in die Lounge <#963794793861886032> und klicken Sie auf den Registrieren-Button, ein Ticket wird dann geöffnet."
         },
         "1": {
           "name": "Wie richte ich das Tool ein?",
