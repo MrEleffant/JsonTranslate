@@ -63,26 +63,37 @@
     "profile": {
       "titre": "Profile",
       "description": "Please complete the form",
-      "firstname": "First name:",
-      "name": "Surname:",
-      "nbradress": "Street number:",
-      "adress": "Address:",
-      "city": "City:",
-      "zipcode": "Code postal:",
-      "country": "Pays:",
-      "phone": "Phone number:"
+      "firstname": "First name",
+      "name": "Surname",
+      "mail": "Mail address",
+      "nbradress": "Street number",
+      "adress": "Address",
+      "city": "City",
+      "zipcode": "Zip code",
+      "country": "Country",
+      "phone": "Phone number"
     },
     "button": {
       "createTicket": "Create a ticket",
       "getProfile": "Get profile",
       "delete": "Close ticket"
     },
+    "tool": {
+      "mirage": {
+        "title": "Additional fields for Mirage",
+        "module": "Module",
+        "site": "Site",
+        "mode": "Mode",
+        "product": "Product",
+        "loops": "loops"
+      }
+    },
     "selection": {
       "Profile": {
         "placeHolder": "Modify your information"
       },
       "bot": {
-        "placeHolder": "Selectionne ton bot"
+        "placeHolder": "Select a bot"
       },
       "menu": {
         "placeHolder": "Choose a language"
@@ -101,14 +112,15 @@
       },
       "param": "Change your",
       "params": {
-        "first_name": "First name:",
-        "last_name": "Name:",
-        "nbradress": "Street number:",
-        "address": "Address:",
-        "country": "Pays:",
-        "city": "City:",
-        "zip": "Code postal:",
-        "phone_number": "Phone number:"
+        "first_name": "First name",
+        "last_name": "Name",
+        "mail": "Mail address",
+        "nbradress": "Street number",
+        "address": "Address",
+        "country": "Country",
+        "city": "City",
+        "zip": "Zip code",
+        "phone_number": "Phone number"
       },
       "webhook": "Please send webhook link",
       "getProfile": "How many profiles do you want to generate?",
@@ -117,7 +129,7 @@
     },
     "guide": {
       "support": "Support Server",
-      "description": "We present to you a new innovative service! Tired of spending time generating profiles for your clients? ACO's Tool is the solution. You will be able to let your customer fill out a form with their information in their ticket. To then generate a .json file with these. The tool will ask you how many profiles it should create with the given information, and will jig the addresses, first and last name. The webhook will also be automatically created, integrated, and set up in the ticket in question.",
+      "description": "We present to you a new innovative service!\nTired of spending time generating profiles for your clients? ACO's Tool is the solution.\n\nYou will be able to let your customer fill out a form with their information in their ticket. To then generate a .json file with these. The tool will ask you how many profiles it has to create with the given information, and will jig the addresses, first and last name. The webhook will also be automatically created, integrated, and set up in the ticket in question.",
       "field1": {
         "name": "Ticket management",
         "value": "Simple ticketing"
@@ -140,7 +152,7 @@
       },
       "field6": {
         "name": "Bot-friendly",
-        "value": "<:solet:965347018853711873>, <:panaio:965348954009128960>, <:natbot:966796334071955486> and many more under development"
+        "value": "<:cybersole:977914164423053342> <:earthside:976151455310422086> <:flare:976451320540200983> <:ganesh:968811466641768448> <:infinit:978047427527442472> <:kallisto:979766595893223464> <:mirage:977622737709301800> <:natbot:966796334071955486> <: panaio:965348954009128960> <:solet:965347018853711873> <:stormaio:976228036120817686> <:thunder:978989069960904714> <:tourneaio:977621450448048200>\nand many more in development"
       },
       "field7": {
         "name": "Scalable",
@@ -148,7 +160,7 @@
       },
       "field8": {
         "name": "Pricing",
-        "value": "The subscription is 15 € per month / server for 2 credits You can create a category and have a runner / credits This means that with 3 credits you can have 3 runners as well as 3 categories at most Each credit costs an additional 5 euros per month"
+        "value": "The subscription is 15 € per month / server for 2 credits\nYou can create a category and have a runner / credits\nWhich means that with 3 credits you can have 3 runners as well as 3 categories at most\nEach credit costs an additional 5 euros per month"
       },
       "footer": "For 15 euros / month / server for 2 credits"
     },
@@ -175,7 +187,7 @@
         },
         "4": {
           "name": "How to change the webhook?",
-          "answer": "Just type the command `?aco ticket setwebhook` in the ticket, and send the link to the new webhook Only needed if you want to use a different webhook than the automatically generated one."
+          "answer": "Just type the command `?aco ticket setwebhook` in the ticket, and send the link to the new webhook\nOnly needed if you want to use a different webhook than the automatically generated one."
         },
         "5": {
           "name": "How to repost the message to create tickets?",
@@ -186,12 +198,12 @@
     "setupGuide": {
       "titre": "Setup guide",
       "field1": "Add the bot to your server, click on the bot profile.",
-      "field2": "Type the command `?aco setup` on your server. *It lets the bot know which server to look at*",
+      "field2": "Type the command `?aco setup` on your server.\n*It lets the bot know which server to look at*",
       "field3": "Press the 🔄 button to update your profile.",
-      "field4": "Add the runners, you have to click on the `Manage runners` button and give the runner's id. [How to find the id?](https://www.youtube.com/watch?v=VTgVsQ0gwKM)",
+      "field4": "Add the runners, you have to click on the `Manage runners` button and give the runner's id.\n[How to find the id?](https://www.youtube.com/watch?v=VTgVsQ0gwKM)",
       "field5": "Create a category with the `?aco cat create` command.",
       "field6": "Take advantage of the tool",
-      "field7": "Other commands: `?aco ticket create` to post the message to create a ticket `?aco ticket setwebhook` to set another webhook `?aco ticket getwebhook` to retrieve the webhook"
+      "field7": "Other commands:\n`?aco ticket create` to post the message to create a ticket\n`?aco ticket setwebhook` to set another webhook\n`?aco ticket getwebhook` to retrieve the webhook"
     }
   }
 }

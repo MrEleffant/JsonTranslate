@@ -63,19 +63,30 @@
     "profile": {
       "titre": "Perfil",
       "description": "Por favor complete el formulario",
-      "firstname": "Nombre de pila:",
-      "name": "Apellido:",
-      "nbradress": "Número de calle:",
-      "adress": "Dirección:",
-      "city": "Ciudad:",
-      "zipcode": "Código postal:",
-      "country": "paga:",
-      "phone": "Número de teléfono:"
+      "firstname": "Nombre de pila",
+      "name": "Apellido",
+      "mail": "Correo electrónico",
+      "nbradress": "número de calle",
+      "adress": "Dirección",
+      "city": "ciudad de residencia",
+      "zipcode": "código postal",
+      "country": "paga",
+      "phone": "Número de teléfono"
     },
     "button": {
       "createTicket": "crear un boleto",
       "getProfile": "Obtener perfil",
       "delete": "Cerrar ticket"
+    },
+    "tool": {
+      "mirage": {
+        "title": "Campos adicionales para Mirage",
+        "module": "Módulo",
+        "site": "Sitio",
+        "mode": "Modo",
+        "product": "Producto",
+        "loops": "bucles"
+      }
     },
     "selection": {
       "Profile": {
@@ -103,6 +114,7 @@
       "params": {
         "first_name": "Nombre de pila:",
         "last_name": "Apellido:",
+        "mail": "Correo electrónico:",
         "nbradress": "Número de calle:",
         "address": "Dirección:",
         "country": "paga:",
@@ -117,7 +129,7 @@
     },
     "guide": {
       "support": "Servidor de soporte",
-      "description": "¡Te presentamos un nuevo servicio innovador! ¿Cansado de perder tiempo generando perfiles para tus clientes? La Herramienta de ACO es la solución. Podrá dejar que su cliente llene un formulario con su información en su ticket. Para luego generar un archivo .json con estos. La herramienta le preguntará cuántos perfiles debe crear con la información dada, y ajustará las direcciones, el nombre y el apellido. El webhook también se creará, integrará y configurará automáticamente en el ticket en cuestión.",
+      "description": "¡Te presentamos un nuevo servicio innovador!\n¿Cansado de perder tiempo generando perfiles para tus clientes? La Herramienta de ACO es la solución.\n\nPodrá dejar que su cliente llene un formulario con su información en su ticket. Para luego generar un archivo .json con estos. La herramienta te preguntará cuántos perfiles tiene que crear con la información dada, y jig las direcciones, nombre y apellido. El webhook también se creará, integrará y configurará automáticamente en el ticket en cuestión.",
       "field1": {
         "name": "Gestión de entradas",
         "value": "Emisión de boletos simple"
@@ -140,7 +152,7 @@
       },
       "field6": {
         "name": "Compatible con bots",
-        "value": "<:solet:965347018853711873>, <:panaio:965348954009128960>, <:natbot:966796334071955486> y muchos más en desarrollo"
+        "value": "<:cybersole:977914164423053342> <:earthside:976151455310422086> <:flare:976451320540200983> <:ganesh:968811466641768448> <:infinit:978047427527442472> <:kallisto:979766595893223464> <:mirage:977622737709301800> <:natbot:966796334071955486> <: >\ny muchos mas en desarrollo"
       },
       "field7": {
         "name": "Escalable",
@@ -148,7 +160,7 @@
       },
       "field8": {
         "name": "Precios",
-        "value": "L'abonnement est de 15 € par mois / serveur pour 2 crédits Vous pouvez créer une catégorie et avoir un runner / crédits Ce qui fait qu'avec 3 crédits vous pouvez avoir 3 runners ainsi que 3 cétégories au maximum Chaque crédits coute 5 euros supplémentaires por mes"
+        "value": "La suscripción es de 15 € al mes / servidor por 2 créditos\nPuedes crear una categoría y tener un corredor/créditos\nLo que significa que con 3 créditos puedes tener 3 corredores y 3 categorías como máximo.\nCada crédito cuesta 5 euros adicionales al mes"
       },
       "footer": "Por 15 euros/mes/servidor por 2 créditos"
     },
@@ -175,7 +187,7 @@
         },
         "4": {
           "name": "¿Cómo cambiar el webhook?",
-          "answer": "Simplemente escriba el comando `?aco ticket setwebhook` en el ticket y envíe el enlace al nuevo webhook Solo es necesario si desea utilizar un webhook diferente al generado automáticamente."
+          "answer": "Simplemente escriba el comando `?aco ticket setwebhook` en el ticket y envíe el enlace al nuevo webhook\nSolo es necesario si desea utilizar un webhook diferente al generado automáticamente."
         },
         "5": {
           "name": "¿Cómo volver a publicar el mensaje para crear tickets?",
@@ -186,12 +198,12 @@
     "setupGuide": {
       "titre": "Guia de preparacion",
       "field1": "Agregue el bot a su servidor, haga clic en el perfil del bot.",
-      "field2": "Escriba el comando `?aco setup` en su servidor. *Le permite al bot saber qué servidor mirar*",
+      "field2": "Escriba el comando `?aco setup` en su servidor.\n*Le permite al bot saber qué servidor mirar*",
       "field3": "Presiona el botón 🔄 para actualizar tu perfil.",
-      "field4": "Agregue los corredores, debe hacer clic en el botón \"Administrar corredores\" y proporcionar la identificación del corredor. [¿Cómo encontrar la identificación?](https://www.youtube.com/watch?v=VTgVsQ0gwKM)",
+      "field4": "Agregue los corredores, debe hacer clic en el botón \"Administrar corredores\" y proporcionar la identificación del corredor.\n[¿Cómo encontrar la identificación?](https://www.youtube.com/watch?v=VTgVsQ0gwKM)",
       "field5": "Cree una categoría con el comando `?aco cat create`.",
       "field6": "Aprovecha la herramienta",
-      "field7": "Otros comandos: `?aco ticket create` para publicar el mensaje para crear un ticket `?aco ticket setwebhook` para establecer otro webhook `?aco ticket getwebhook` para recuperar el webhook"
+      "field7": "Otros comandos:\n`?aco ticket create` para publicar el mensaje para crear un ticket\n`?aco ticket setwebhook` para configurar otro webhook\n`?aco ticket getwebhook` para recuperar el webhook"
     }
   }
 }
