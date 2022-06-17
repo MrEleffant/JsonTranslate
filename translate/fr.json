@@ -1,0 +1,239 @@
+{
+    "fr": {
+        "name": "Français",
+        "emoji": "🇫🇷",
+        "access": {
+          "guild": "Le serveur n'a pas été trouvé.",
+          "denied": "Vous n'avez pas les permissions pour effectuer cette action.",
+          "notSubscribed": "Vous n'avez pas souscrit au service, rendez-vous sur le serveur, il vous faut plus de crédits",
+          "wrongGuild": "Ce serveur n'est pas me même que celui définit",
+          "catDeleted": "La catégorie a été supprimée.",
+          "catdontexist": "La catégorie n'existe pas.",
+          "hasticket": "Vous avez déjà un ticket ouvert.",
+          "notRunner": "Vous n'êtes pas abonné.",
+          "notSub": "Vous n'avez pas souscrit au service."
+        },
+        "setup": {
+          "success": "Votre serveur a été configuré avec succès."
+        },
+        "joinrunner": {
+          "tittle": "S'abonner au tool",
+          "description": "C'est ici que tout commence, faite votre demande et controlez vos services",
+          "button": {
+            "text": "S'abonner"
+          }
+        },
+        "cat": {
+          "maxCat": "Vous avez atteint le nombre maximum de catégories."
+        },
+        "controlePannel": {
+          "embed": {
+            "tittle": "Panneau de controle",
+            "status": "Status",
+            "langue": "Langue",
+            "credit": "Crédits",
+            "guild": "Serveur",
+            "runner": "Runners",
+            "categories": "Catégories",
+            "key": "Clé"
+          },
+          "components": {
+            "reset": "Réinitialiser",
+            "changeCredit": "Changer le nombre de crédits",
+            "placeHolder": "Choisir une autre langue",
+            "manageRunners": "Gérer les runners",
+            "deleteCategory": "Supprimer une catégorie"
+          }
+        },
+        "manageRunners": {
+          "chooseRunner": "Choisir le runner",
+          "placeHolder": "Choisir une action",
+          "addingRunner": "Envoie l'id du runner que vous voulez ajouter.",
+          "addRunner": "Ajouter un runner",
+          "delRunner": "Supprimer un runner",
+          "success": "Le runner a bien été enlevé",
+          "notFound": "Le runner n'a pas été trouvé",
+          "added": "Le runner a bien été ajouté",
+          "alreadyAdded": "Le runner est déjà dans la liste",
+          "maxRunners": "Vous avez atteint le nombre maximum de runners"
+        },
+        "createTickets": {
+          "tittle": "Créer un ticket",
+          "description": "Appuie sur le bouton pour créer un ticket"
+        },
+        "profile": {
+          "titre": "Profil",
+          "description": "Merci de remplir le formulaire",
+          "firstname": "Prénom:",
+          "name": "Nom de famille:",
+          "mail": "Adresse mail:",
+          "nbradress": "Numéro de rue:",
+          "adress": "Adresse:",
+          "city": "Ville:",
+          "zipcode": "Code postal:",
+          "country": "Pays:",
+          "phone": "Numéro de téléphone:",
+          "region": "Région:",
+          "departement": "Département:"
+        },
+        "button": {
+          "createTicket": "Créer un ticket",
+          "getProfile": "Obtenir le profil",
+          "delete": "Fermer le ticket"
+        },
+        "tool": {
+          "mirage": {
+            "title": "Champs supplémentaires pour Mirage",
+            "module": "Module:",
+            "site": "site:",
+            "mode": "Mode:",
+            "product": "Produit:",
+            "loops": "loops:"
+          },
+          "inifinit": {
+            "title": "Champs supplémentaires pour Inifinit",
+            "phonePrefix": "Préfixe du numéro de téléphone:",
+            "province": "Province:"
+          },
+          "adonis": {
+            "title": "Champs supplémentaires pour Adonis",
+            "site": "Site:",
+            "url": "URL:",
+            "mode": "Mode:",
+            "size": "Taille:"
+          }
+        },
+        "selection": {
+          "Profile": {
+            "placeHolder": "Modifier vos informations"
+          },
+          "bot": {
+            "placeHolder": "Selectionne ton bot"
+          },
+          "menu": {
+            "placeHolder": "Choisir une langue"
+          },
+          "cat": {
+            "placeHolder": "Choisir la catégorie"
+          }
+        },
+        "edit": {
+          "button": {
+            "title": "Modifiez le message",
+            "titre": "Modifiez le titre:",
+            "desc": "Modifiez la description:",
+            "img": "Modifiez l'image (url, https ou http)",
+            "button": "Modifiez le contenu du bouton"
+          },
+          "param": "Modifiez votre",
+          "params": {
+            "first_name": "Prénom:",
+            "last_name": "Nom:",
+            "mail": "Adresse mail:",
+            "nbradress": "Numéro de rue:",
+            "address": "Adresse:",
+            "country": "Pays:",
+            "city": "Ville:",
+            "zip": "Code postal:",
+            "phone_number": "Numéro de téléphone:",
+            "region": "Région:",
+            "departement": "Département:"
+          },
+          "webhook": "Veuillez envoyer le lien du webhook",
+          "getProfile": "Combien de profils veux-tu générer ?",
+          "getAccounts": "Merci de nous tranmettre les comptes utilisés",
+          "sendProfiles": "Voilà vos profils"
+        },
+        "guide": {
+          "support": "Serveur de support",
+          "description": "Nous vous présentons un nouveau service innovant !\nRas le bol de passer du temps à générer des profils pour vos clients ? ACO's Tool est la solution.\n\nVous allez pouvoir laisser votre client remplir un formulaire avec ses informations dans son ticket. Pour ensuite générer un fichier .json avec ces dernières. Le tool vous demandera combien de profils il doit créer avec les informations données, et effectuera un jig sur les adresses, nom et prénom. Le webhook sera aussi automatiquement créée, intégré, et mis en place dans le ticket en question.",
+          "field1": {
+            "name": "Gestion des tickets",
+            "value": "Mise en place simple de tickets"
+          },
+          "field2": {
+            "name": "Intuitif",
+            "value": "Le client rentre lui même ses infos ! vous n'avez plus qu'à importer dans votre bot"
+          },
+          "field3": {
+            "name": "Plus rapide",
+            "value": "Générez autant de comptes que nécessaires en deux clics, finis les copier coller !"
+          },
+          "field4": {
+            "name": "J1g",
+            "value": "Génération de profils avec nom, prénom et adresse j1g"
+          },
+          "field5": {
+            "name": "Gestion des Webhooks",
+            "value": "Intégration automatique du webhook dans le ticket, à l'effigie du membre !"
+          },
+          "field6": {
+            "name": "Compatible avec les bots",
+            "value": "<:cybersole:977914164423053342> <:earthside:976151455310422086> <:flare:976451320540200983> <:ganesh:968811466641768448> <:infinit:978047427527442472> <:kallisto:979766595893223464> <:mirage:977622737709301800> <:natbot:966796334071955486> <:panaio:965348954009128960> <:solet:965347018853711873> <:stormaio:976228036120817686> <:thunder:978989069960904714> <:tourneaio:977621450448048200>\net bien d'autres en cours de développement"
+          },
+          "field7": {
+            "name": "Evolutif",
+            "value": "Nous sommes à l'écoute et réactif, partagez-nous  vos idées !"
+          },
+          "field8": {
+            "name": "Tarification",
+            "value": "L'abonnement est de 15 € par mois / serveur pour 2 crédits\nVous pouvez créer une catégorie et avoir un runner / crédits\nCe qui fait qu'avec 3 crédits vous pouvez avoir 3 runners ainsi que 3 cétégories au maximum\nChaque crédits coute 5 euros supplémentaires par mois"
+          },
+          "footer": "Moyennant 15 euros / mois / serveur pour 2 crédits"
+        },
+        "faq": {
+          "titre": "FAQ",
+          "description": "Voilà les réponses à vos questions, si vous avez besoin d'aide, n'hésitez pas à nous contacter !",
+          "placeholder": "Choisir une question",
+          "questions": {
+            "0": {
+              "name": "Comment s'abonner ?",
+              "answer": "Rendez vous dans le salon <#963794793861886032> et cliquez sur le bouton s'enregistrer, un ticket sera alors ouvert."
+            },
+            "1": {
+              "name": "Comment mettre en place le tool ?",
+              "answer": "Une fois que votre license est activé, il vous suffit de faire la commande `?aco setup` sur votre serveur."
+            },
+            "2": {
+              "name": "Comment générer des profils ?",
+              "answer": "Il vous suffit de cliquer sur le bouton `Obtenir le profil` une fois le formulaire rempli, le tool vous enverra le profil généré."
+            },
+            "3": {
+              "name": "Mon pays n'est pas le bon, comment le changer ?",
+              "answer": "Il vous suffit de changer votre pays dans le formulaire en respectant le format demandé par votre bot. (ex: FR / France, ...)"
+            },
+            "4": {
+              "name": "Comment changer le webhook ?",
+              "answer": "Il vous suffit de tapper la commande `?aco ticket setwebhook` dans le ticket, et d'envoyer le lien vers le nouveau webhook\nN'est nécessaire que si vous voulez utiliser un webhook différent que celui généré automatiquement."
+            },
+            "5": {
+              "name": "Comment reposter le message pour créer des tickets ?",
+              "answer": "Il vous suffit de taper la commande `?aco ticket create` le tool postera le message."
+            }
+          }
+        },
+        "setupGuide": {
+          "titre": "Guide de mise en place",
+          "field1": "Ajoutez le bot à votre serveur, cliquez sur le profil du bot.",
+          "field2": "Tappez la commande `?aco setup` sur votre serveur.\n*Elle permet au bot de savoir quel serveur regarder*",
+          "field3": "Appuyez sur le bouton 🔄, pour actualiser votre profile.",
+          "field4": "Ajoutez les runners, il vous faut cliquer sur le bouton `Gérer les runners` et donner l'id du runner.\n[Comment trouver les id ?](https://www.youtube.com/watch?v=VTgVsQ0gwKM)",
+          "field5": "Créez une catégorie avec la commande `?aco cat create`.",
+          "field6": "Profitez du tool",
+          "field7": "Autre commandes :\n`?aco ticket create` pour poster le message pour créer un ticket\n`?aco ticket setwebhook` pour mettre un autre webhook\n`?aco ticket getwebhook` pour récupérer le webhook"
+        },
+        "jig": {
+          "edited": "Niveau de j1g modifié avec succès !",
+          "setLevel": "Choisissez votre niveau de j1g",
+          "placeholder": "Changer le niveau de j1g",
+          "jig1": "Niveau 1",
+          "jig1Desc": "RUE DE LL''EAAU - Par défaut",
+          "jig2": "Niveau 2",
+          "jig2Desc": "RUE DE L'EEEEAU  - Même chose que le niveau 1 mais plus puissant",
+          "jig3": "Niveau 3",
+          "jig3Desc": "RUE DE L'EAU xxx - J1gs avec 3 lettres aléatoires",
+          "jig4": "Niveau 4",
+          "jig4Desc": "RUE DE L'EAU XXX - J1gs avec 3 lettres aléatoires"
+        }
+      }
+}

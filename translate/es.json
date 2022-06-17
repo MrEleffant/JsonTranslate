@@ -1,0 +1,239 @@
+{
+  "fr": {
+    "name": "Español",
+    "emoji": "🇪🇸",
+    "access": {
+      "guild": "No se encontró el servidor.",
+      "denied": "No tiene los permisos para realizar esta acción.",
+      "notSubscribed": "No te has suscrito al servicio, ve al servidor, necesitas más créditos",
+      "wrongGuild": "Este servidor no es el mismo que el definido",
+      "catDeleted": "La categoría ha sido eliminada.",
+      "catdontexist": "La categoría no existe.",
+      "hasticket": "Ya tienes un ticket abierto.",
+      "notRunner": "No es un suscriptor.",
+      "notSub": "No se ha suscrito al servicio."
+    },
+    "setup": {
+      "success": "Su servidor ha sido configurado con éxito."
+    },
+    "joinrunner": {
+      "tittle": "Suscríbete a la herramienta",
+      "description": "Aquí empieza todo, haz tu pedido y consulta tus servicios",
+      "button": {
+        "text": "Suscribir"
+      }
+    },
+    "cat": {
+      "maxCat": "Ha alcanzado el número máximo de categorías."
+    },
+    "controlePannel": {
+      "embed": {
+        "tittle": "Panel de control",
+        "status": "Estado",
+        "langue": "Lengua",
+        "credit": "Créditos",
+        "guild": "Servidor",
+        "runner": "corredores",
+        "categories": "Categorías",
+        "key": "Clave"
+      },
+      "components": {
+        "reset": "Reiniciar",
+        "changeCredit": "Cambiar el número de créditos",
+        "placeHolder": "Elige otro idioma",
+        "manageRunners": "Administrar corredores",
+        "deleteCategory": "Eliminar una categoría"
+      }
+    },
+    "manageRunners": {
+      "chooseRunner": "elige el corredor",
+      "placeHolder": "Elige una acción",
+      "addingRunner": "Envía el id del corredor que deseas agregar.",
+      "addRunner": "Agregar un corredor",
+      "delRunner": "Eliminar un corredor",
+      "success": "El corredor ha sido eliminado.",
+      "notFound": "El corredor no fue encontrado",
+      "added": "El corredor ha sido agregado",
+      "alreadyAdded": "El corredor ya está en la lista.",
+      "maxRunners": "Has alcanzado el número máximo de corredores"
+    },
+    "createTickets": {
+      "tittle": "crear un boleto",
+      "description": "Presione el botón para crear un boleto"
+    },
+    "profile": {
+      "titre": "Perfil",
+      "description": "Por favor complete el formulario",
+      "firstname": "Nombre de pila",
+      "name": "Apellido",
+      "mail": "Correo electrónico",
+      "nbradress": "número de calle",
+      "adress": "Dirección",
+      "city": "ciudad de residencia",
+      "zipcode": "código postal",
+      "country": "paga",
+      "phone": "Número de teléfono",
+      "region": "Región:",
+      "departement": "Departamento:"
+    },
+    "button": {
+      "createTicket": "crear un boleto",
+      "getProfile": "Obtener perfil",
+      "delete": "Cerrar ticket"
+    },
+    "tool": {
+      "mirage": {
+        "title": "Campos adicionales para Mirage",
+        "module": "Módulo",
+        "site": "Sitio",
+        "mode": "Modo",
+        "product": "Producto",
+        "loops": "bucles"
+      },
+      "inifinit": {
+        "title": "Campos adicionales para Infinit",
+        "phonePrefix": "Prefijo del número de teléfono:",
+        "province": "Provincia:"
+      },
+      "adonis": {
+        "title": "Campos adicionales para Adonis",
+        "site": "Sitio:",
+        "url": "URL:",
+        "mode": "Modo:",
+        "size": "Tamaño:"
+      }
+    },
+    "selection": {
+      "Profile": {
+        "placeHolder": "Modifica tu información"
+      },
+      "bot": {
+        "placeHolder": "Selección de toneladas de bot"
+      },
+      "menu": {
+        "placeHolder": "Elige un idioma"
+      },
+      "cat": {
+        "placeHolder": "Elegir la categoría"
+      }
+    },
+    "edit": {
+      "button": {
+        "title": "Editar post",
+        "titre": "Edite el título:",
+        "desc": "Edita la descripción:",
+        "img": "Cambiar la imagen (url, https o http)",
+        "button": "Editar contenido del botón"
+      },
+      "param": "Cambia tu",
+      "params": {
+        "first_name": "Nombre de pila:",
+        "last_name": "Apellido:",
+        "mail": "Correo electrónico:",
+        "nbradress": "Número de calle:",
+        "address": "Dirección:",
+        "country": "paga:",
+        "city": "Ciudad:",
+        "zip": "Código postal:",
+        "phone_number": "Número de teléfono:",
+        "region": "Región:",
+        "departement": "Departamento:"
+      },
+      "webhook": "Envíe el enlace del webhook",
+      "getProfile": "¿Cuántos perfiles quieres generar?",
+      "getAccounts": "Por favor envíenos las cuentas utilizadas",
+      "sendProfiles": "Aquí están sus perfiles"
+    },
+    "guide": {
+      "support": "Servidor de soporte",
+      "description": "¡Te presentamos un nuevo servicio innovador!\n¿Cansado de perder tiempo generando perfiles para tus clientes? La Herramienta de ACO es la solución.\n\nPodrá dejar que su cliente llene un formulario con su información en su ticket. Para luego generar un archivo .json con estos. La herramienta te preguntará cuántos perfiles tiene que crear con la información dada, y jig las direcciones, nombre y apellido. El webhook también se creará, integrará y configurará automáticamente en el ticket en cuestión.",
+      "field1": {
+        "name": "Gestión de entradas",
+        "value": "Emisión de boletos simple"
+      },
+      "field2": {
+        "name": "Intuitivo",
+        "value": "¡El cliente ingresa su propia información! solo tienes que importar en tu bot"
+      },
+      "field3": {
+        "name": "Más rápido",
+        "value": "Genere tantas cuentas como necesite en dos clics, ¡no más copiar y pegar!"
+      },
+      "field4": {
+        "name": "J1g",
+        "value": "Generación de perfiles con nombre, apellido y dirección j1g"
+      },
+      "field5": {
+        "name": "Gestión de webhooks",
+        "value": "Integración automática del webhook en el ticket, con la efigie del miembro!"
+      },
+      "field6": {
+        "name": "Compatible con bots",
+        "value": "<:cybersole:977914164423053342> <:earthside:976151455310422086> <:flare:976451320540200983> <:ganesh:968811466641768448> <:infinit:978047427527442472> <:kallisto:979766595893223464> <:mirage:977622737709301800> <:natbot:966796334071955486> <: >\ny muchos mas en desarrollo"
+      },
+      "field7": {
+        "name": "Escalable",
+        "value": "Estamos atentos y receptivos, ¡comparta sus ideas con nosotros!"
+      },
+      "field8": {
+        "name": "Precios",
+        "value": "La suscripción es de 15 € al mes / servidor por 2 créditos\nPuedes crear una categoría y tener un corredor/créditos\nLo que significa que con 3 créditos puedes tener 3 corredores y 3 categorías como máximo.\nCada crédito cuesta 5 euros adicionales al mes"
+      },
+      "footer": "Por 15 euros/mes/servidor por 2 créditos"
+    },
+    "faq": {
+      "titre": "Preguntas más frecuentes",
+      "description": "Aquí están las respuestas a sus preguntas, si necesita ayuda, ¡no dude en contactarnos!",
+      "placeholder": "Elige una pregunta",
+      "questions": {
+        "0": {
+          "name": "¿Cómo suscribirse?",
+          "answer": "Vaya a la sala <#963794793861886032> y haga clic en el botón de registro, luego se abrirá un boleto."
+        },
+        "1": {
+          "name": "¿Cómo configurar la herramienta?",
+          "answer": "Una vez que su licencia esté activada, solo tiene que ejecutar el comando `?aco setup` en su servidor."
+        },
+        "2": {
+          "name": "¿Cómo generar perfiles?",
+          "answer": "Solo necesita hacer clic en el botón `Obtener perfil` una vez que se complete el formulario, la herramienta le enviará el perfil generado."
+        },
+        "3": {
+          "name": "Mi país no es el correcto, ¿cómo puedo cambiarlo?",
+          "answer": "Lo único que tienes que hacer es cambiar tu país en el formulario, respetando el formato solicitado por tu bot. (ej.: FR / Francia, ...)"
+        },
+        "4": {
+          "name": "¿Cómo cambiar el webhook?",
+          "answer": "Simplemente escriba el comando `?aco ticket setwebhook` en el ticket y envíe el enlace al nuevo webhook\nSolo es necesario si desea utilizar un webhook diferente al generado automáticamente."
+        },
+        "5": {
+          "name": "¿Cómo volver a publicar el mensaje para crear tickets?",
+          "answer": "Solo tiene que escribir el comando `?aco ticket create` y la herramienta publicará el mensaje."
+        }
+      }
+    },
+    "setupGuide": {
+      "titre": "Guia de preparacion",
+      "field1": "Agregue el bot a su servidor, haga clic en el perfil del bot.",
+      "field2": "Escriba el comando `?aco setup` en su servidor.\n*Le permite al bot saber qué servidor mirar*",
+      "field3": "Presiona el botón 🔄 para actualizar tu perfil.",
+      "field4": "Agregue los corredores, debe hacer clic en el botón \"Administrar corredores\" y proporcionar la identificación del corredor.\n[¿Cómo encontrar la identificación?](https://www.youtube.com/watch?v=VTgVsQ0gwKM)",
+      "field5": "Cree una categoría con el comando `?aco cat create`.",
+      "field6": "Aprovecha la herramienta",
+      "field7": "Otros comandos:\n`?aco ticket create` para publicar el mensaje para crear un ticket\n`?aco ticket setwebhook` para configurar otro webhook\n`?aco ticket getwebhook` para recuperar el webhook"
+    },
+    "jig": {
+      "edited": "¡El nivel de j1g cambió con éxito!",
+      "setLevel": "Elige tu nivel j1g",
+      "placeholder": "Cambiar el nivel de j1g",
+      "jig1": "Nivel 1",
+      "jig1Desc": "RUE DE LL''EAUAU - Por defecto",
+      "jig2": "Nivel 2",
+      "jig2Desc": "CALLE EEEEAU - Igual que el nivel 1 pero más potente",
+      "jig3": "Nivel 3",
+      "jig3Desc": "WATER STREET xxx - J1gs con 3 letras aleatorias",
+      "jig4": "Nivel 4",
+      "jig4Desc": "WATER STREET XXX - J1gs con 3 letras aleatorias"
+    }
+  }
+}
