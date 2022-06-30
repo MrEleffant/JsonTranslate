@@ -220,7 +220,7 @@
       "field4": "Add the runners, you have to click on the `Manage runners` button and give the runner's id.\n[How to find the id?](https://www.youtube.com/watch?v=VTgVsQ0gwKM)",
       "field5": "Create a category with the `?aco cat create` command.",
       "field6": "Take advantage of the tool",
-      "field7": "Other commands:\n`?aco ticket create` to post the message to create a ticket\n`?aco ticket setwebhook` to set another webhook\n`?aco ticket getwebhook` to retrieve the webhook"
+      "field7": "Other commands:\n`?aco ticket create` to post the message to create a ticket\n`?aco ticket setwebhook` to set another webhook\n`?aco ticket getwebhook` to retrieve the webhook\n`?aco j1g setlevel` Choose level and type of j1g"
     },
     "jig": {
       "edited": "Level of j1g changed successfully!",

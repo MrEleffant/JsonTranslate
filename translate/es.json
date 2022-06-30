@@ -220,7 +220,7 @@
       "field4": "Agregue los corredores, debe hacer clic en el botón \"Administrar corredores\" y proporcionar la identificación del corredor.\n[¿Cómo encontrar la identificación?](https://www.youtube.com/watch?v=VTgVsQ0gwKM)",
       "field5": "Cree una categoría con el comando `?aco cat create`.",
       "field6": "Aprovecha la herramienta",
-      "field7": "Otros comandos:\n`?aco ticket create` para publicar el mensaje para crear un ticket\n`?aco ticket setwebhook` para configurar otro webhook\n`?aco ticket getwebhook` para recuperar el webhook"
+      "field7": "Otros comandos:\n`?aco ticket create` para publicar el mensaje para crear un ticket\n`?aco ticket setwebhook` para establecer otro webhook\n`?aco ticket getwebhook` para recuperar el webhook\n`?aco j1g setlevel` Elija el nivel y el tipo de j1g"
     },
     "jig": {
       "edited": "¡El nivel de j1g cambió con éxito!",
