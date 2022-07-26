@@ -101,6 +101,11 @@
         "url": "URL:",
         "mode": "Modalità:",
         "size": "Formato:"
+      },
+      "hyperaffles": {
+        "title": "Campi aggiuntivi per HyperRaffles",
+        "countryCode": "Prefisso internazionale:",
+        "phoneContryCode": "Codice del numero di telefono:"
       }
     },
     "selection": {
@@ -220,7 +225,7 @@
       "field4": "Aggiungi i corridori, devi fare clic sul pulsante \"Gestisci corridori\" e fornire l'ID del corridore.\n[Come trovare l'ID?](https://www.youtube.com/watch?v=VTgVsQ0gwKM)",
       "field5": "Crea una categoria con il comando `?aco cat create`.",
       "field6": "Approfitta dello strumento",
-      "field7": "Altri comandi:\n`?aco ticket create` per inviare il messaggio per creare un ticket\n`?aco ticket setwebhook` per impostare un altro webhook\n`?aco ticket getwebhook` per recuperare il webhook\n`?aco j1g setlevel` Scegli il livello e il tipo di j1g"
+      "field7": "Altri comandi:\n`?aco ticket create` per inviare il messaggio per creare un ticket\n`?aco ticket setwebhook` per impostare un altro webhook\n`?aco ticket getwebhook` per recuperare il webhook\n`?aco j1g setlevel` Scegli il livello e il tipo di j1g\n`?aco ticket repost` Invia nuovamente il modulo all'inizio del ticket"
     },
     "jig": {
       "edited": "Il livello di j1g è cambiato con successo!",
