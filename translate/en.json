@@ -79,7 +79,8 @@
     "button": {
       "createTicket": "Create a ticket",
       "getProfile": "Get profile",
-      "delete": "Close ticket"
+      "delete": "Close ticket",
+      "rename": "Rename"
     },
     "tool": {
       "mirage": {
@@ -239,6 +240,12 @@
       "jig3Desc": "WATER STREET xxx - J1gs with 3 random letters",
       "jig4": "Level 4",
       "jig4Desc": "WATER STREET XXX - J1gs with 3 random letters"
+    },
+    "transcript": {
+      "tittle": "Ticket Closed!",
+      "runner": "Closed by:",
+      "membre": "Member:",
+      "channel": "Channel id :"
     }
   }
 }

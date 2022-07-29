@@ -79,7 +79,8 @@
     "button": {
       "createTicket": "Ticket erstellen",
       "getProfile": "Profil erhalten",
-      "delete": "Ticket schließen"
+      "delete": "Ticket schließen",
+      "rename": "Umbenennen"
     },
     "tool": {
       "mirage": {
@@ -239,6 +240,12 @@
       "jig3Desc": "WATER STREET xxx - J1gs mit 3 zufälligen Buchstaben",
       "jig4": "Level 4",
       "jig4Desc": "WATER STREET XXX - J1gs mit 3 zufälligen Buchstaben"
+    },
+    "transcript": {
+      "tittle": "Ticket geschlossen!",
+      "runner": "Geschlossen durch:",
+      "membre": "Mitglied:",
+      "channel": "Kanal ID :"
     }
   }
 }
