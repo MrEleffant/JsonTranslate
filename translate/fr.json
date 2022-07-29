@@ -226,7 +226,7 @@
       "field4": "Ajoutez les runners, il vous faut cliquer sur le bouton `Gérer les runners` et donner l'id du runner.\n[Comment trouver les id ?](https://www.youtube.com/watch?v=VTgVsQ0gwKM)",
       "field5": "Créez une catégorie avec la commande `?aco cat create`.",
       "field6": "Profitez du tool",
-      "field7": "Autre commandes :\n`?aco ticket create` pour poster le message pour créer un ticket\n`?aco ticket setwebhook` pour mettre un autre webhook\n`?aco ticket getwebhook` pour récupérer le webhook\n`?aco j1g setlevel` Choisir le niveau et type de j1g\n`?aco ticket repost` Permet de renvoyer le formulaire au début du ticket"
+      "field7": "Autre commandes :\n`?aco ticket create` pour poster le message pour créer un ticket\n`?aco ticket setwebhook` pour mettre un autre webhook\n`?aco ticket getwebhook` pour récupérer le webhook\n`?aco j1g setlevel` Choisir le niveau et type de j1g\n`?aco ticket repost` Permet de renvoyer le formulaire au début du ticket\n`?aco ticket rename` Renommer le ticket/profile\n`?aco ticket delete` fermer le ticket"
     },
     "jig": {
       "edited": "Niveau de j1g modifié avec succès !",

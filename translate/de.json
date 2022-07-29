@@ -226,7 +226,7 @@
       "field4": "Fügen Sie die Läufer hinzu, Sie müssen auf die Schaltfläche „Läufer verwalten“ klicken und die ID des Läufers eingeben.\n[Wie finde ich die ID?](https://www.youtube.com/watch?v=VTgVsQ0gwKM)",
       "field5": "Erstellen Sie eine Kategorie mit dem Befehl „?aco cat create“.",
       "field6": "Nutzen Sie das Tool",
-      "field7": "Andere Befehle:\n`?aco ticket create`, um die Nachricht zum Erstellen eines Tickets zu posten\n`?aco ticket setwebhook`, um einen weiteren Webhook zu setzen\n`?aco ticket getwebhook`, um den Webhook abzurufen\n`?aco j1g setlevel` Wählen Sie Level und Typ von j1g\n`?aco ticket repost` Sendet das Formular erneut an den Anfang des Tickets"
+      "field7": "Andere Befehle:\n`?aco ticket create`, um die Nachricht zum Erstellen eines Tickets zu posten\n`?aco ticket setwebhook`, um einen weiteren Webhook zu setzen\n`?aco ticket getwebhook`, um den Webhook abzurufen\n`?aco j1g setlevel` Wählen Sie Level und Typ von j1g\n`?aco ticket repost` Sendet das Formular erneut an den Anfang des Tickets\n`?aco ticket rename` Ticket/Profil umbenennen\n`?aco ticket delete` Ticket schließen"
     },
     "jig": {
       "edited": "Level von j1g erfolgreich geändert!",
