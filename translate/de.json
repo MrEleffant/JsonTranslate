@@ -239,7 +239,11 @@
       "jig3": "Stufe 3",
       "jig3Desc": "WATER STREET xxx - J1gs mit 3 zufälligen Buchstaben",
       "jig4": "Level 4",
-      "jig4Desc": "WATER STREET XXX - J1gs mit 3 zufälligen Buchstaben"
+      "jig4Desc": "WATER STREET XXX - J1gs mit 3 zufälligen Buchstaben",
+      "jig5": "User Rate Limit Exceeded",
+      "jig5Desc": "User Rate Limit Exceeded",
+      "jig6": "User Rate Limit Exceeded",
+      "jig6Desc": "User Rate Limit Exceeded"
     },
     "transcript": {
       "tittle": "Ticket geschlossen!",

@@ -239,7 +239,12 @@
       "jig3": "Niveau 3",
       "jig3Desc": "RUE DE L'EAU xxx - J1gs avec 3 lettres aléatoires",
       "jig4": "Niveau 4",
-      "jig4Desc": "RUE DE L'EAU XXX - J1gs avec 3 lettres aléatoires"
+      "jig4Desc": "RUE DE L'EAU XXX - J1gs avec 3 lettres aléatoires",
+      "jig5": "Niveau 5",
+      "jig5Desc": "xxx RUE DE L'EAU - J1gs avec 3 lettres aléatoires",
+      "jig6": "Niveau 6",
+      "jig6Desc": "XXX RUE DE L'EAU - J1gs avec 3 lettres aléatoires"
+
     },
     "transcript": {
       "tittle": "Ticket Fermé !",

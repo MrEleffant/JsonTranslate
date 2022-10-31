@@ -239,7 +239,11 @@
       "jig3": "Nivel 3",
       "jig3Desc": "WATER STREET xxx - J1gs con 3 letras aleatorias",
       "jig4": "Nivel 4",
-      "jig4Desc": "WATER STREET XXX - J1gs con 3 letras aleatorias"
+      "jig4Desc": "WATER STREET XXX - J1gs con 3 letras aleatorias",
+      "jig5": "User Rate Limit Exceeded",
+      "jig5Desc": "User Rate Limit Exceeded",
+      "jig6": "User Rate Limit Exceeded",
+      "jig6Desc": "User Rate Limit Exceeded"
     },
     "transcript": {
       "tittle": "Boleto cerrado!",
